@@ -1,4 +1,4 @@
-ipython>=3.0
+ipython>=8.10.0
 numpy>=1.9
 pandas>=0.16.2
 scipy
@@ -14,3 +14,4 @@ xlrd
 lxml
 beautifulsoup4
 html5lib
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
